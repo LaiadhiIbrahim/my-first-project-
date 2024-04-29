@@ -1,0 +1,25 @@
+.image-container {
+  background-image: url("./images/Hero.png");
+  background-size: cover;
+  height: 100vh;
+
+  z-index: 1;
+}
+
+.lorem-class {
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
